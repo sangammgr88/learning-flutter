@@ -56,7 +56,7 @@
 //   //  print("my age is $ages");
 //  } 
 
-  void main(){
+  // void main(){
 //  if(true){ 
 //    print("Hello");
 //   }
@@ -261,5 +261,129 @@
 //   c[0]="55";
 //   print(c);
 //   print(c.remove("55"));
+//   print(c.removeLast());
+//   print(c.removeAt(2));
+// }
+     // area of circle 
+// void main(){
+//   num sangam(int r, {double pi=3.14}){
+//       return pi*r*r;
+//   }
+//   print(sangam(7));
 // }
 
+//Write a program in Dart to reverse a String using function.
+// (.reversed).join()
+
+// void main() {
+//   String original = "Hello, World!";
+//   String reversed = reverseString(original);
+//   print("Original: $original");
+//   print("Reversed: $reversed");
+// }
+
+// String reverseString(String input) {
+//   return input.split('').reversed.join();
+// }
+
+//Write a program in Dart to calculate power of a certain
+//number. For e.g 5^3=125
+
+// void ram() {
+//   int base = 5;
+//   int exponent = 3;
+//   int result = power(base, exponent);
+//   print("$base^$exponent = $result");
+// }
+
+// int power(int base, int exponent) {
+//   int result = 1;
+//   for (int i = 0; i < exponent; i++) {
+//     result *= base;
+//   }
+//   return result;
+// }
+
+// void main(){
+//   Set<String> a = {"sunday", "monday", "tuesday", "wednesday"};
+//   print(a);
+//   print(a.length);
+//   print(a.first);
+//   print(a.last);
+//   print(a.isNotEmpty);
+//   print(a.isEmpty);
+//   a.add("Hello");
+//   print(a);
+//   a.clear();
+//  print(a);
+// }
+
+// void main(){
+//   Map<int, String> a= {
+//     1:"hello",
+//     2:"HRY",
+//     3:"voo"
+//   };
+//   print(a);
+//     print(a[1]);
+//     print(a.length);
+//     print(a.isEmpty);
+//     print(a.isNotEmpty);
+//     print(a.keys);
+//     print(a.values);
+//     print(a.keys.toList());
+//     print(a.clear);
+// }
+
+// void main(){
+// }
+// class book{
+//   String name = "Hello";
+//   String author = "sujan";
+//   String price = "90";
+
+//  display(){
+//     print("$name");
+//      print("$author");
+//       print("$price");
+//   }
+// }
+
+// class Person{
+//   String? name;
+//   String? age;
+//   String? college;
+
+//   Person(String name, String age, String college){
+//     this.name = name;
+//     this.age = age;
+//     this.college = college;
+//   }
+//   display(){
+//     print("$name $college  $age ");
+//   }
+// }
+//  class Camera{
+//   String? name;
+//   String? colour;
+//   String? brand;
+
+//   display(){
+//     print("$name $colour $brand");
+//   }
+//  }
+// void main(){
+//   book a = book();
+//   a.name = "hello book";
+//   a.author = "sanfam";
+//   a.price = "900";
+//   a.display();
+
+//   Camera b = Camera();
+//   b.name = "Canon 80D";
+//   b.colour = "black";
+//   b.brand = "canon";
+//   b.display();
+
+// }
+ 
