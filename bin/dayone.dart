@@ -386,4 +386,110 @@
 //   b.display();
 
 // }
- 
+
+////////////day 5///////
+// void main() {
+//   Person a = Person();
+//   a.setName("Sangam");
+//   print(a._name);
+// }
+
+// //encapsulation
+// class Person {
+//   String? _name;
+//   void get Name => print(this._name);
+
+//   void setName(String name) {
+//     this._name = name;
+//   }
+
+//   // String Names(){
+//   //   return _name;
+// }
+
+//inheritance
+// class Person {
+//   String? name;
+//   Person(String name){
+//     this.name = name;
+//   }
+//   display(){
+//     print("my name is $name");
+//   }
+// }
+// class Student extends Person{
+//  bool? a;
+//  Student(this.a, name): super(name);
+//   displays() {
+//     print("is he/she a student : $a");
+//   }}
+// class Gender extends Student{
+//   bool? genders;
+//   gender(){
+//     print("is a male : $gender");
+//   }
+// }
+
+
+//  void main(){
+// Gender newGender = Gender();
+//   newGender.name = "sangam";
+//   newGender.a = true;
+//   newGender.genders = true;
+//   newGender.gender();
+//   // newGender.displays();
+//  }
+// void main(){
+//   Student newStudent = Student();
+//   newStudent.name = "sangam";
+//   newStudent.a = true;
+//   newStudent.display();
+//   newStudent.displays();
+// }
+
+
+  // void main(){
+  //   Student newStudent = Student(true, "sangam");
+  //   newStudent.display();
+  //   newStudent.displays();
+  // }
+
+
+//   class Car {
+//   int noOfSeats = 7;
+// }
+
+// class Tesla extends Car {
+//   int noOfSeats = 6;
+//   void display() {
+//     print("No fo seats in Tesla: $noOfSeats");
+//     print("No fo seats in Car : ${super.noOfSeats} ");
+//   }
+// }
+
+// void callObject() {
+//   // var gender = Gender(true, "Male", "Kumar");
+//   // gender._name = "Hari poudel";
+//   // gender._gender = "Male";
+//   // gender.question = true;
+
+//   // gender.displayInfo();
+
+//   // var animal = Animal("Dog", "Bhau bhau");
+
+//   // var cat = Cats("Cat", "Meow Meow");
+//   // cat._name = "cat";
+//   // cat._sounds = "Meow Meow";
+//   // animal.displayInfo();
+//   // cat.displayInfo();
+//   var tesla = Tesla();
+//   tesla.display();
+// }
+
+class Emoployee {
+  int salary = 10000;
+  display(){
+    print("salary of a employrr is $salary");
+  }
+  
+}
