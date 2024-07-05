@@ -486,10 +486,89 @@
 //   tesla.display();
 // }
 
-class Emoployee {
-  int salary = 10000;
-  display(){
-    print("salary of a employrr is $salary");
-  }
+// class Emoployee {
+//   int salary = 10000;
+//   display(){
+//     print("salary of a employrr is $salary");
+//   }
   
+// }
+
+        //////day six
+// class Simple{
+//   static double a(double b, double c){
+//     return (b +c);
+//   }
+//   static String c(String name){
+//     return name;
+//   }
+//   }
+//   void main(){
+//     print("by adding two number will be ${Simple.a(2, 2)}");
+//     print("My name is ${Simple.c("sangam")}");
+//   }
+
+// enum DataEnum{
+//   sunday,
+//   monday,
+//   tuesday,
+//   friday
+// }
+// void main(){
+//   var a = DataEnum.sunday;
+//   switch(a){
+//     case DataEnum.sunday:
+//     print("today is sunday");
+//     break;
+//      case DataEnum.monday:
+//     print("today is monday");
+//     break;
+//      case DataEnum.tuesday:
+//     print("today is tuesday");
+//     break;
+//     case DataEnum.friday:
+//     print("today is friday");
+//     break;
+//     default:
+//     print("non of the above ");
+//   }
+  
+// }
+
+
+  //  void main(){
+
+  //  }
+  //  abstract class Person{
+  //   run();
+  //   walk();
+  //  }
+  //  class Student extends Person{
+  //   @override
+  //   run(){
+  //     print("she can run");
+  //   }
+  //   @override
+  //   walk(){
+  //     print("she can walk");
+  //   }
+  //  }
+
+  // void main(){
+  //   String? a = "sangam";
+  //   a ="magar";
+  //   a = null;
+  //   print(a);
+  // }
+  void main(){
+  // Asyncronous programming--> it is help to run the code by the nedded of the user by using the some code 
+  print("my");
+  Future.delayed(Duration(seconds: 2), ()=>{
+    print("Sangam")
+  }
+  );
+  print("name");
+   print("is");
+
+   
 }
